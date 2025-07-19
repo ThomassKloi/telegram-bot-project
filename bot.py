@@ -3,7 +3,7 @@ from telegram import Bot
 from prometheus_client import start_http_server, Counter
 
 # Telegram токен
-TOKEN = "Yuor Token"
+TOKEN = "Your Token"
 bot = Bot(token=TOKEN)
 
 # Flask-сервер
